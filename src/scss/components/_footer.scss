@@ -1,0 +1,60 @@
+.conteiner-footer {
+  background: #021635;
+  padding: 0 164.5px;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+.top-line {
+  display: flex;
+  justify-content: space-between;
+}
+.container-url {
+  margin-bottom: 10px;
+}
+.question {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.URLs {
+  text-align: end;
+}
+.url {
+  color: #fff;
+  text-decoration-line: underline;
+}
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background: #9b9b9b;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottom-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  padding-bottom: 24px;
+  padding-top: 2px;
+}
+.time__brend {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+}
+
+.bottom-line::after {
+  content: "";
+  width: 88px;
+  height: 86px;
+  display: block;
+  background-image: url(/src/images/logo_2_1.svg) url(/src/images/c&r\(1\).svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}

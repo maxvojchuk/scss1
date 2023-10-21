@@ -1,0 +1,43 @@
+.colorawe {
+  font-size: 144px;
+  font-family: "Plaifair Display", serif;
+}
+.dream {
+  color: #fff;
+  font-family: " Playfair Display", serif;
+  font-size: 72px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.main-page {
+  background: url(/src/images/bacgraund_main.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 95px;
+  padding-bottom: 183px;
+}
+.buy {
+  border-radius: 10px;
+  background: #8e32c6;
+  padding: 19px 61px;
+  display: inline-block;
+  margin-top: 41px;
+}
+.main-page-text {
+  color: #fff;
+
+  max-width: 508px;
+}
+.main-page-container {
+  width: 1107px;
+  margin: 0 auto;
+}
+.main-page-container::before {
+  content: "";
+  width: 160px;
+  height: 135px;
+  display: block;
+  background-image: url(/src/images/logo\ 1.svg), url(/src/images/c&r.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}
